@@ -266,9 +266,9 @@ header{
     /* margin-left: 50px; */
     max-width: 100%;
 
-    position: absolute;
+    /* position: absolute;
     left: 40px;
-    right: 0;
+    right: 0; */
     margin: auto;
     font-size: 18px;
 
@@ -279,16 +279,16 @@ header{
     max-width: 350px;
     height: 3px;
    background-color: turquoise;
-   margin-left: 70px;
+   /* margin-left: 70px; */
    margin-top: 60px;
    overflow-x: hidden;
 
 }
 .section-one .sectionone-left h4{
     display: block;
-    position: absolute;
+    /* position: absolute;
 
-    left: 40px;
+    left: 40px; */
     max-width: 500px;
 
     margin-top: 40px;   
