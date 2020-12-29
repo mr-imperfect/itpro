@@ -261,7 +261,7 @@ header{
 .section-one .sectionone-left h2 span{
     display: inline ;
     max-width: 100%;
-    margin-left: 0;
+    margin-left: 10px;
 
     overflow-x: hidden;
 
@@ -289,7 +289,7 @@ header{
    /* margin-left: 70px; */
    margin-top: 30px;
    overflow-x: hidden;
-   margin-left: 35px;
+   margin-left: 10px;
  
 
 }
