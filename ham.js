@@ -6,7 +6,7 @@ var close=document.querySelector('.close')
 ham.addEventListener('click',()=>{
 
     hey.classList.add('ham-click')
-    hey.style.animation=" move 1.5s ease-in-out"
+    hey.style.animation=" move .5s ease-in-out"
 
 
     
@@ -15,12 +15,12 @@ ham.addEventListener('click',()=>{
 
 close.addEventListener('click',()=>{
     
-    hey.style.animation=" remove 1.5s ease-in-out"
+    hey.style.animation=" remove .5s ease-in-out"
    
     setTimeout(()=>{
         hey.classList.remove('ham-click')
 
-    },1400)
+    },400)
     
 
   
