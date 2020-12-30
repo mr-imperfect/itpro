@@ -1,0 +1,295 @@
+body{
+    margin:0;
+    padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+
+
+  
+}
+
+
+.first-section{
+    display:flex;
+    width:100%;
+    height:200px;
+    /* background-color: brown; */
+    
+}
+
+.left-section{
+    margin-left: 30px;
+    width:50%;
+    height: 200px;
+    text-align: justify;
+    /* background-color:red; */
+
+
+}
+
+
+.left-section .inblock{
+    margin-top: 4px;
+    
+}
+.right-section{
+    position: absolute;
+    right: 0;
+    top:0;
+    /* background-color: blue; */
+    width: 50%;
+    height: 200px;
+    display: flex;
+
+}
+.right-section .one{
+    position: relative;
+    top:50px;
+    left: 80px;
+}
+.right-section .two{
+    position: relative;
+    top:50px;
+    left:150px;
+   
+}
+.right-section .three{
+    position: relative;
+    top:50px;
+    left:200px;
+    
+}
+.one p{
+    position: relative;
+    top:-24px;
+    right:3px;
+}
+.two p{
+    position: relative;
+    top:-24px;
+    right:18px;
+
+}
+.three p{
+    position: relative;
+    top:-24px;
+    right: 12px;
+}
+.right-section h1{
+    font-size: 35px;
+    color:grey;
+}
+.buttonclass{
+    position: absolute;
+    right: 50px;
+    top:90px;
+}
+.button{
+    background-color: gray; 
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border-radius: 3px;
+
+}
+.second-section{
+    width:100%;
+    height:375px;
+    /* background-color:blue; */
+    position: absolute;
+    top:200px;
+   
+}
+.second-section h1{
+    margin-left: -160px;
+    text-align: center;
+}
+.second-section .video{
+    position: relative;
+    left:250px;
+}
+@media (max-width:2203px){
+    .buttonclass{
+        position: absolute;
+        left:500px;     
+
+    }
+    .course{
+        position: absolute;
+        top:0px;
+        left: 500px;
+    }
+    iframe{
+        position: absolute;
+        top:100px;
+        left: 00px;
+    }
+}
+
+@media (max-width:1330px){
+    .left-section{
+        position: absolute;
+        left: 250px;
+    }
+    .nata{
+        text-align: center;
+    }
+    .right-section{
+        position: absolute;
+        top:200px;
+        left: 220px;
+    }
+    .course{
+        position: absolute;
+        top:150px;
+        left: 600px;
+    }
+    iframe{
+        position: absolute;
+        top:250px;
+        left: 50px;
+    }
+
+}
+@media (max-width:1100px){
+    .one h1{
+        font-size: 19px;
+    }
+    .one p{
+        font-size: 19px;    
+
+    }
+    .two h1{
+        font-size: 19px;
+    }
+    .two p{
+        font-size: 19px;    
+
+    }
+    .three h1{
+        font-size: 19px;
+    }
+    .three p{
+        font-size: 19px;    
+
+    }
+    .buttonclass{
+       position: absolute;
+       top:140px;
+       left: 250px;
+       
+    }
+    .course{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    iframe{
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        left: 100px;
+    }
+    
+}
+
+@media (max-width:890px){
+   
+    .left-section{
+        position: absolute;
+        left: 100px;
+    }
+    .right-section{
+        position: absolute;
+        left: 50px;
+        top: 240px;
+    }
+    .course{
+        position: absolute;
+        left:400px;
+        top: 200px;
+    }
+    iframe{
+        width:275px;
+        height: 275px;
+        position: absolute;
+        top: 300px;
+        left: -50px;
+    }
+}
+
+@media (max-width:630px){
+    .container{
+        overflow: hidden;
+    }
+
+    .left-section{
+        position: absolute;
+        left: 0;
+    }
+    .right-section{
+        position: absolute;
+        top:350px;
+        left: -50px;
+    }
+    .course{
+        position: absolute;
+        top: 300px;
+        left: 250px;
+
+    }
+    iframe{
+        position: absolute;
+        top:400px;
+        left: -200px;
+    }
+}
+
+@media (max-width:500px){
+
+   
+
+    .left-section{
+        width: 90%;
+    }
+   
+    .one h1{
+        font-size: 16px;
+    }
+    .one p{
+        font-size: 16px;    
+
+    }
+    .two h1{
+        font-size: 16px;
+    }
+    .two p{
+        font-size: 16px;    
+
+    }
+    .three h1{
+        font-size: 16px;
+    }
+    .three p{
+        font-size: 16px;    
+
+    }
+    .right-section{
+        position: absolute;
+        top:250px;
+    }
+    .course{
+        position: absolute;
+        top:300px;
+
+    }
+    .buttonclass{
+        position: absolute;
+        left: 200px;
+    }
+    iframe{
+        position: absolute; 
+        top:400px;
+
+
+    }
+}
